@@ -706,7 +706,7 @@ export function ContactForm() {
               Retornaremos em 24h úteis.
             </h2>
             <p className="text-sm" style={{ fontFamily:"'Inter', sans-serif", color:C.dim }}>
-              Seu briefing foi registrado. Um engenheiro sênior da CodeX analisará e agendará uma sessão de Discovery sem custo.
+              Seu briefing foi registrado. Nossa equipe entrará em contato para agendar uma reunião online sem custo.
             </p>
           </div>
         </FadeIn>
@@ -728,7 +728,7 @@ export function ContactForm() {
           </p>
           <div className="flex flex-col gap-5">
             {[
-              { Icon:Zap,      text:"Discovery gratuito · 60 minutos" },
+              { Icon:Zap,      text:"Reunião online gratuita · 60 minutos" },
               { Icon:Shield,   text:"Resposta em até 24 horas úteis" },
               { Icon:Lock,     text:"NDA disponível antes do briefing" },
             ].map(({ Icon, text }) => (

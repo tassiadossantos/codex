@@ -640,7 +640,7 @@ function Architecture() {
 }
 
 // ─── Contact ──────────────────────────────────────────────────────────────────
-function ContactForm() {
+export function ContactForm() {
   const [status, setStatus] = useState<FormStatus>("idle");
   const [error, setError]   = useState<ProblemDetail | null>(null);
   const [form, setForm]     = useState<LeadPayload>({ name:"", email:"", company:"", budget:"", message:"" });

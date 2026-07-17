@@ -189,11 +189,12 @@ function Nav() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+    <header className="fixed top-0 left-0 right-0 z-50"
       style={{
-        backgroundColor: scrolled ? "rgba(6,8,15,0.92)" : "transparent",
+        backgroundColor: scrolled ? "rgba(6,8,15,0.97)" : "transparent",
         backdropFilter:  scrolled ? "blur(12px)" : "none",
         borderBottom:    scrolled ? `1px solid ${C.border}` : "none",
+        transition: "background-color 0.3s, border-bottom 0.3s",
       }}>
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
@@ -203,9 +204,14 @@ function Nav() {
             <span style={{ fontFamily:"'Orbitron', sans-serif", fontSize:"0.6rem", fontWeight:900, color:C.blue }}>CX</span>
             <Brackets size={6} color={C.gold} />
           </div>
-          <span style={{ fontFamily:"'Orbitron', sans-serif", fontSize:"0.75rem", fontWeight:700, color:C.text, letterSpacing:"0.2em" }}>
-            CODEX
-          </span>
+          <div className="flex flex-col">
+            <span style={{ fontFamily:"'Orbitron', sans-serif", fontSize:"0.75rem", fontWeight:700, color:C.text, letterSpacing:"0.2em" }}>
+              CODEX
+            </span>
+            <span style={{ fontFamily:"'Share Tech Mono', monospace", fontSize:"0.5rem", color:C.dim, letterSpacing:"0.15em" }}>
+              SISTEMAS ENTERPRISE
+            </span>
+          </div>
         </a>
 
         {/* Links */}

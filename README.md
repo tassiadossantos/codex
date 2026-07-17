@@ -97,9 +97,18 @@ pnpm build
 
 Os arquivos otimizados serão gerados na pasta `dist/`.
 
-## Licença
+## Licença / License
 
-Este projeto é de propriedade exclusiva de **Tassia dos Santos**. Qualquer uso, reprodução, modificação ou distribuição não autorizada é estritamente proibida. Consulte o arquivo [LICENSE](LICENSE) para detalhes completos.
+Este projeto é de propriedade exclusiva de **Tassia dos Santos**. Todos os documentos de licenciamento estão disponíveis em **português brasileiro e inglês**.
+
+This project is the exclusive property of **Tassia dos Santos**. All licensing documents are available in **Brazilian Portuguese and English**.
+
+| Documento | Descrição / Description |
+|-----------|--------------------------|
+| [LICENSE](LICENSE) | Licença proprietária base / Base proprietary license |
+| [SOURCE-AVAILABLE.md](SOURCE-AVAILABLE.md) | Disponibilização do código-fonte / Source code availability |
+| [TRADEMARKS.md](TRADEMARKS.md) | Marcas registradas e identidade visual / Trademarks and visual identity |
+| [EXCLUSIVE-LICENSE.md](EXCLUSIVE-LICENSE.md) | Licença exclusiva para uso autorizado / Exclusive license for authorized use |
 
 ---
 

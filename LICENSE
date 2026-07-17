@@ -1,139 +1,234 @@
-PROPRIETARY SOFTWARE LICENSE
-============================
+LICENCA DE SOFTWARE PROPRIETARIO
+=================================
 
-Copyright (c) 2026 Tassia dos Santos. All Rights Reserved.
+Copyright (c) 2026 Tassia dos Santos. Todos os Direitos Reservados.
 
-TERMS AND CONDITIONS
----------------------
+---
 
-1. DEFINITIONS
+## 1. Definicoes
 
-   "Software" refers to the CODEX Corporate Website, including but not limited to
-   all source code, compiled code, design assets, visual elements, documentation,
-   configurations, and any derivative works.
+"Software" refere-se ao CODEX Corporate Website, incluindo todo o codigo-fonte,
+codigo compilado, ativos de design, elementos visuais, documentacao, configuracoes
+e quaisquer obras derivadas.
 
-   "Owner" refers to Tassia dos Santos, the exclusive legal owner and rights
-   holder of the Software.
+"Proprietaria" refere-se a Tassia dos Santos, proprietaria legal exclusiva e
+detentora dos direitos do Software.
 
-   "User" refers to any individual, entity, or automated system that accesses,
-   views, or interacts with the Software in any form.
+---
 
-2. GRANT OF RIGHTS
+## 2. Concessao de Direitos
 
-   NO RIGHTS ARE GRANTED. This license grants absolutely no rights to any party.
-   The Software is provided solely for demonstration and portfolio purposes.
+NENHUM DIREITO E CONCEDIDO. Esta licenca nao concede quaisquer direitos a
+qualquer parte. O Software e fornecido exclusivamente para fins de demonstracao
+e portfolio.
 
-3. PROHIBITED ACTIONS
+Qualquer uso alem da visualizacao para inspecao requer um acordo escrito
+separadamente assinado com a Proprietaria. Consulte
+[EXCLUSIVE-LICENSE.md](EXCLUSIVE-LICENSE.md).
 
-   The following actions are strictly prohibited without prior written authorization
-   from the Owner:
+---
 
-   a) Copying, reproducing, or duplicating any portion of the Software, in whole
-      or in part;
+## 3. Acoes Proibidas
 
-   b) Modifying, adapting, translating, reverse-engineering, decompiling, or
-      disassembling the Software;
+Sem autorizacao previa por escrito da Proprietaria, as seguintes acoes sao
+proibidas:
 
-   c) Creating derivative works based on the Software, including but not limited to
-      similar websites, templates, themes, or applications;
+a) Copiar, reproduzir ou duplicar o Software, no todo ou em parte;
+b) Modificar, adaptar, traduzir, fazer engenharia reversa ou criar obras derivadas;
+c) Distribuir, publicar, sub-licenciar, vender, alugar ou transferir o Software;
+d) Usar o design system, identidade visual ou trade dress em qualquer outro projeto;
+e) Acesso automatizado, scraping ou extracao de dados;
+f) Usar o Software para treinar modelos de IA/ML ou tecnologias similares;
+g) Reivindicar autoria, propriedade ou credito pelo Software.
 
-   d) Distributing, publishing, sublicensing, selling, leasing, or transferring the
-      Software to any third party;
+---
 
-   e) Using the Software's design system, color palette, typography, layout
-      patterns, animations, or visual identity in any other project;
+## 4. Propriedade Intelectual
 
-   f) Scraping, crawling, or extracting data, code, or assets from the Software
-      by any automated or manual means;
+O Software e todos os direitos de propriedade intelectual associados sao e
+permanecerao propriedade exclusiva da Proprietaria. Nada nesta licenca
+constitui transferencia de quaisquer direitos de propriedade intelectual.
 
-   g) Removing, altering, or obscuring any copyright notices, attribution
-      references, or proprietary markings;
+---
 
-   h) Using the Software or any portion thereof to train, fine-tune, or otherwise
-      develop machine learning models, artificial intelligence systems, or similar
-      technologies;
+## 5. Documentos de Licenciamento
 
-   i) Claiming authorship, ownership, or credit for the Software or any derivative
-      thereof.
+Os seguintes documentos fornecem termos detalhados para aspectos especificos:
 
-4. INTELLECTUAL PROPERTY
+| Documento | Escopo |
+|-----------|--------|
+| [LICENSE](LICENSE) | Este arquivo — licenca proprietaria base (termos padrao) |
+| [SOURCE-AVAILABLE.md](SOURCE-AVAILABLE.md) | Termos de acesso e inspecao do codigo-fonte |
+| [TRADEMARKS.md](TRADEMARKS.md) | Protecao de marcas, logotipos e identidade visual |
+| [EXCLUSIVE-LICENSE.md](EXCLUSIVE-LICENSE.md) | Acordo de licenca exclusiva para uso autorizado |
 
-   The Software and all associated intellectual property rights, including but not
-   limited to copyrights, trademarks, trade secrets, and design rights, are and
-   shall remain the exclusive property of the Owner. Nothing in this license
-   shall be construed as a transfer or assignment of any intellectual property
-   rights.
+Em caso de conflito entre esta LICENCA e qualquer um dos documentos acima, a
+provisao mais restritiva prevalecera, exceto quando um Aditivo de Licenca
+separadamente executado sob EXCLUSIVE-LICENSE.md especificar o contrario.
 
-5. DESIGN SYSTEM PROTECTION
+---
 
-   The visual identity of the Software, including but not limited to the color
-   palette (hex codes, RGB values, HSL values), typography specifications,
-   spacing systems, component designs, animation patterns, layout structures, and
-   overall aesthetic, constitutes proprietary trade dress and is fully protected.
-   Reproduction or imitation of this visual identity, in whole or in part, is
-   strictly prohibited.
+## 6. Dependencias de Terceiros
 
-6. AUTOMATED ACCESS
+Esta licenca aplica-se exclusivamente ao codigo e design propriетarios. As
+bibliotecas de terceiros estao sujeitas as suas proprias licencas. Consulte
+[ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
-   Any automated access to the Software, including web scraping, crawling, data
-   extraction, or similar activities, is strictly prohibited. The Owner reserves
-   the right to block any IP address or user agent engaged in unauthorized
-   automated access.
+---
 
-7. DMCA AND LEGAL ENFORCEMENT
+## 7. Isencao de Garantias
 
-   The Owner actively monitors for unauthorized use of the Software. Any
-   infringement will be pursued to the fullest extent of applicable law, including
-   but not limited to:
+O SOFTWARE E FORNECIDO "COMO ESTA" SEM QUALQUER TIPO DE GARANTIA, EXPRESSA OU
+IMPLICITA. A PROPRIETARIA REJEITA TODAS AS GARANTIAS, INCLUINDO, MAS NAO SE
+LIMITANDO A, COMERCIALIZADE, ADEQUACAO A UM FIM ESPECIFICO E NAO VIOLACAO.
 
-   a) Digital Millennium Copyright Act (DMCA) takedown notices;
-   b) Cease and desist letters;
-   c) Civil litigation for damages, injunctive relief, and attorney's fees;
-   d) Criminal prosecution where applicable.
+---
 
-8. THIRD-PARTY DEPENDENCIES
+## 8. Limitacao de Responsabilidade
 
-   This license applies solely to the proprietary code and design of the Software.
-   Third-party libraries and components included in the Software are subject to
-   their own respective licenses. However, their inclusion in this Software does
-   not grant any license to use the Software itself.
+EM NENHUM CASO A PROPRIETARIA SERA RESPONSAVIL POR QUALQUER RECLAMACAO,
+DANOS OU OUTRA RESPONSABILIDADE DECORRENDE DE, OU EM CONEXAO COM O SOFTWARE.
 
-9. DISCLAIMER OF WARRANTIES
+---
 
-   THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   IMPLIED. THE OWNER DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO
-   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+## 9. Lei Aplicavel
 
-10. LIMITATION OF LIABILITY
+Esta licenca sera regida e interpretada de acordo com as leis da Republica
+Federativa do Brasil.
 
-    IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-    LIABILITY WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
-    OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
+---
 
-11. GOVERNING LAW
+## 10. Divisibilidade
 
-    This license shall be governed by and construed in accordance with the laws
-    of the Federative Republic of Brazil.
+Se qualquer disposicao for considerada inexigivel, as disposicoes restantes
+permanecerao em vigor.
 
-12. SEVERABILITY
+---
 
-    If any provision of this license is held to be unenforceable, the remaining
-    provisions shall remain in full force and effect.
+## 11. Contato
 
-13. ENTIRE AGREEMENT
+Tassia dos Santos
+GitHub: https://github.com/tassiadossantos
+Repositorio: https://github.com/tassiadossantos/Codex
 
-    This license constitutes the entire agreement between the Owner and any User
-    regarding the Software and supersedes all prior or contemporaneous
-    communications, representations, or agreements, whether oral or written.
+---
 
-14. CONTACT
+AO ACESSAR, VISUALIZAR OU INTERAGIR COM ESTE SOFTWARE, VOCE RECONHECE QUE LEU,
+ENTENDEU E CONCORDA EM CUMPRIR OS TERMOS DESTA LICENCA. SE VOCE NAO CONCORDA,
+DEVE INTERROMPER IMEDIATAMENTE TODO O USO DESTE SOFTWARE.
 
-    For any inquiries regarding licensing, permissions, or authorized use:
+© 2026 Tassia dos Santos. Todos os Direitos Reservados.
 
-    Tassia dos Santos
-    GitHub: https://github.com/tassiadossantos
-    Repository: https://github.com/tassiadossantos/Codex
+---
+
+---
+
+# CODEX — Proprietary Software License
+
+**Effective Date:** July 17, 2026
+**Copyright (c) 2026 Tassia dos Santos. All Rights Reserved.**
+
+---
+
+## 1. Definitions
+
+"Software" refers to the CODEX Corporate Website, including all source code,
+compiled code, design assets, visual elements, documentation, configurations,
+and any derivative works.
+
+"Owner" refers to Tassia dos Santos, the exclusive legal owner and rights
+holder of the Software.
+
+---
+
+## 2. Grant of Rights
+
+NO RIGHTS ARE GRANTED. This license grants absolutely no rights to any party.
+The Software is provided solely for demonstration and portfolio purposes.
+
+Any use beyond viewing for inspection requires a separately executed written
+agreement with the Owner. See [EXCLUSIVE-LICENSE.md](EXCLUSIVE-LICENSE.md).
+
+---
+
+## 3. Prohibited Actions
+
+Without prior written authorization from the Owner, the following are prohibited:
+
+a) Copying, reproducing, or duplicating the Software, in whole or in part;
+b) Modifying, adapting, translating, reverse-engineering, or creating derivative works;
+c) Distributing, publishing, sublicensing, selling, leasing, or transferring the Software;
+d) Using the design system, visual identity, or trade dress in any other project;
+e) Automated access, scraping, or data extraction;
+f) Using the Software to train AI/ML models or similar technologies;
+g) Claiming authorship, ownership, or credit for the Software.
+
+---
+
+## 4. Intellectual Property
+
+The Software and all associated intellectual property rights are and shall remain
+the exclusive property of the Owner. Nothing in this license constitutes a
+transfer of any intellectual property rights.
+
+---
+
+## 5. Licensing Documents
+
+The following documents provide detailed terms for specific aspects:
+
+| Document | Scope |
+|----------|-------|
+| [LICENSE](LICENSE) | This file — base proprietary license (default terms) |
+| [SOURCE-AVAILABLE.md](SOURCE-AVAILABLE.md) | Source code access and inspection terms |
+| [TRADEMARKS.md](TRADEMARKS.md) | Brand names, logos, and visual identity protection |
+| [EXCLUSIVE-LICENSE.md](EXCLUSIVE-LICENSE.md) | Exclusive license agreement for authorized use |
+
+In case of conflict between this LICENSE and any of the above documents, the
+more restrictive provision shall prevail, except when a separately executed
+License Addendum under EXCLUSIVE-LICENSE.md specifies otherwise.
+
+---
+
+## 6. Third-Party Dependencies
+
+This license applies solely to the proprietary code and design. Third-party
+libraries are subject to their own licenses. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+
+---
+
+## 7. Disclaimer of Warranties
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. THE OWNER DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+---
+
+## 8. Limitation of Liability
+
+IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE.
+
+---
+
+## 9. Governing Law
+
+This license shall be governed by the laws of the Federative Republic of Brazil.
+
+---
+
+## 10. Severability
+
+If any provision is held unenforceable, the remaining provisions remain in effect.
+
+---
+
+## 11. Contact
+
+Tassia dos Santos
+GitHub: https://github.com/tassiadossantos
+Repository: https://github.com/tassiadossantos/Codex
 
 ---
 

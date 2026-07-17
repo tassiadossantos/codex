@@ -191,8 +191,7 @@ function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50"
       style={{
-        backgroundColor: scrolled ? "rgba(6,8,15,0.97)" : "transparent",
-        backdropFilter:  scrolled ? "blur(12px)" : "none",
+        backgroundColor: scrolled ? "#06080F" : "transparent",
         borderBottom:    scrolled ? `1px solid ${C.border}` : "none",
         transition: "background-color 0.3s, border-bottom 0.3s",
       }}>

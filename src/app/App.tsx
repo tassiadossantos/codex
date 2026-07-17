@@ -18,7 +18,7 @@ import {
   Cpu,
   Lock,
 } from "lucide-react";
-import { supabase } from "../lib/supabase";
+import { supabase, isConfigured } from "../lib/supabase";
 import type { LeadPayload, ProblemDetail, FormStatus } from "../lib/types";
 
 // ─── Palette ──────────────────────────────────────────────────────────────────
@@ -650,6 +650,11 @@ export function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!isConfigured) {
+      setError({ type:"", title:"Serviço Indisponível", status:503, detail:"Formulário temporariamente indisponível. Tente novamente mais tarde." });
+      setStatus("error");
+      return;
+    }
     setStatus("loading"); setError(null);
     try {
       const { error: supabaseError } = await supabase

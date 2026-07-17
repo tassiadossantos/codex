@@ -9,6 +9,7 @@ vi.mock('../lib/supabase', () => ({
   supabase: {
     from: (...args: any[]) => mockFrom(...args),
   },
+  isConfigured: true,
 }))
 
 import { ContactForm } from '../app/App'

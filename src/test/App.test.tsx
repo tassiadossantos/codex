@@ -7,6 +7,7 @@ vi.mock('../lib/supabase', () => ({
       insert: vi.fn().mockResolvedValue({ data: null, error: null }),
     })),
   },
+  isConfigured: true,
 }))
 
 import App from '../app/App'

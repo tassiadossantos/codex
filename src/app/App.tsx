@@ -191,9 +191,10 @@ function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50"
       style={{
-        backgroundColor: scrolled ? "#06080F" : "transparent",
-        borderBottom:    scrolled ? `1px solid ${C.border}` : "none",
-        transition: "background-color 0.3s, border-bottom 0.3s",
+        backgroundColor: "#06080F",
+        borderBottom: scrolled ? `1px solid ${C.border}` : "1px solid transparent",
+        willChange: "background-color",
+        transition: "border-bottom-color 0.3s",
       }}>
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
@@ -291,21 +292,23 @@ function Hero() {
   }, [lineIdx]);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden" style={{ backgroundColor: C.bg }}>
-      <ScanLine />
+    <section className="relative min-h-screen flex items-center" style={{ backgroundColor: C.bg }}>
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <ScanLine />
 
-      {/* Hex grid bg */}
-      <div className="absolute inset-0 opacity-[0.035]" style={{
-        backgroundImage:`url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100'%3E%3Cpath d='M28 66L0 50V18L28 2l28 16v32L28 66zm0 34L0 84V52l28 16 28-16v32L28 100z' fill='none' stroke='%2300A8FF' stroke-width='0.5'/%3E%3C/svg%3E")`,
-        backgroundSize:"56px 100px",
-      }} />
+        {/* Hex grid bg */}
+        <div className="absolute inset-0 opacity-[0.035]" style={{
+          backgroundImage:`url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100'%3E%3Cpath d='M28 66L0 50V18L28 2l28 16v32L28 66zm0 34L0 84V52l28 16 28-16v32L28 100z' fill='none' stroke='%2300A8FF' stroke-width='0.5'/%3E%3C/svg%3E")`,
+          backgroundSize:"56px 100px",
+        }} />
 
-      {/* Radial glow — arc reactor position */}
-      <div className="absolute pointer-events-none" style={{
-        right:"8%", top:"50%", transform:"translateY(-50%)",
-        width:500, height:500,
-        background:`radial-gradient(circle, ${C.blue}18 0%, ${C.gold}08 40%, transparent 70%)`,
-      }} />
+        {/* Radial glow — arc reactor position */}
+        <div className="absolute" style={{
+          right:"8%", top:"50%", transform:"translateY(-50%)",
+          width:500, height:500,
+          background:`radial-gradient(circle, ${C.blue}18 0%, ${C.gold}08 40%, transparent 70%)`,
+        }} />
+      </div>
 
       <div className="relative max-w-7xl mx-auto px-6 pt-28 pb-20 w-full grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-16 items-center">
         {/* Left col */}
